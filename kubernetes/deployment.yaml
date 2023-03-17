@@ -9,7 +9,9 @@ spec:
     matchLabels:
       app: hello-world
   replicas: 2
-containers:
+  template:
+    spec:
+      containers:
       - name: hello-world
         image: bhargavshah86/kube-test:v0.1
         ports:
