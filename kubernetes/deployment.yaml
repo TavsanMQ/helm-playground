@@ -10,6 +10,9 @@ spec:
       app: hello-world
   replicas: 2
   template:
+    metadata:
+      labels:
+        app: hello-world
     spec:
       containers:
       - name: hello-world
