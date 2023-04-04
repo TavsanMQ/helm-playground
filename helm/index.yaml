@@ -3,7 +3,17 @@ entries:
   example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-27T08:22:18.0135796+03:00"
+    created: "2023-04-04T07:03:46.2413251+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 3f9ab2fd1a30da0765a897845bae475c87968b338745c6b4d120413c25ce7b67
+    name: example
+    type: application
+    urls:
+    - https://tavsanmq.github.io/helm-playground/helm/example-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-04T07:03:46.2402608+03:00"
     description: A Helm chart for Kubernetes
     digest: af52bc365442ee0335ff20daf56d57f96166ae471ed000c0f705c8fc974dc09b
     name: example
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://tavsanmq.github.io/helm-playground/helm/example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-27T08:22:18.0107976+03:00"
+generated: "2023-04-04T07:03:46.2397244+03:00"
